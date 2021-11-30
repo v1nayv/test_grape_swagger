@@ -1,28 +1,24 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Getting started
 
-Things you may want to cover:
+`bundle install`
 
-* Ruby version
+## Start rails server
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+rails s
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+# Swagger
+
+## Swagger 2.0
+localhost:3000/swagger_doc
+
+## Swagger UI
+localhost:3000/swagger
+
+# Endpoints
+
+## Get bank accounts
+
+`api/v1/customers/a398eec3-992b-43a7-8dd8-e4aaf7398c3e/bank_accounts.json`
